@@ -16,8 +16,19 @@ a {
 
 .parrafoazul{
     color: blue;
+    width: 350px;
 }
 
 .frase{
     color: slateblue;
+    color: tomato;
+
+}
+
+.frase{
+    color: green;
+}
+
+.contenedorConMargen{
+    margin: ;
 }
