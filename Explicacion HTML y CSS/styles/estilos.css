@@ -29,6 +29,28 @@ a {
     color: green;
 }
 
+.imgPerrito{
+    width: 200px;
+}
+
 .contenedorConMargen{
-    margin: ;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border: 1px solid red;
+    padding: 1px;
+}
+
+.divTest {
+    border: 1px solid red;
+
+}
+
+.contenedorDivs {
+    border: 2px solid green;
+    display: grid;
+    grid-column: auto;
+    grid-template-rows: 10px 50px;
+    grid-template-columns: 150px 150px 300px;
 }
