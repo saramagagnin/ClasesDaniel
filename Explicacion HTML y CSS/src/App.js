@@ -2,16 +2,18 @@ import logo from './logo.svg';
 import './styles/styles.css';
 import borderCollie from './media/collie.jpg'
 import rodhesian from './media/rhodesian.jpg'
+import logoPerro from './media/logoPerro.png'
+
 
 function App() {
   return (
-    <div classNameName="App">
+    <div className="App">
       
     <header>
         <ul className="navbar">
             
             <li>
-                <img className="logo" src="./media/logoPerro.png" alt="Logo Perro"/>
+                <img className="logo" src={logoPerro} alt="Logo Perro"/>
             </li>
 
             <li>
