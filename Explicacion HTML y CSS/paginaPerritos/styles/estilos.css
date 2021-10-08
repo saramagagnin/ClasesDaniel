@@ -80,6 +80,13 @@ ul{
     color: blue;
 }
 
+.tituloPrincipal{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 540;
+    color: rgb(110, 108, 108);
+}
+
 .breedCardContainer{
     display: flex;
     
@@ -136,5 +143,10 @@ ul{
 
 .likes > li {
     color: white;
-    font: weight 510px;
+    font-weight:525;
+    cursor: pointer;
+}
+
+i:hover{
+    cursor: pointer;
 }
