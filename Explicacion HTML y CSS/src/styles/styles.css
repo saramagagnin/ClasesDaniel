@@ -1,0 +1,152 @@
+body{
+  margin: 0px;
+}
+
+ul{
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.navbar{
+ display: flex; 
+ justify-content: space-between;
+ padding: 10px;
+ background-color: #cccccc;
+ border-bottom: 1px solid gray;
+ box-shadow: 1px 1px gray;
+}
+
+.navbar > li{
+  display: flex;
+  align-items: center;
+}
+
+.logo{
+  height: 70px;
+}
+
+.button{
+  border: 0px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-weight: bolder; 
+}
+
+.button:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.mainButton{
+  background-color: green;
+  color: white;
+}
+
+.mainButton:hover{
+  box-shadow: 1px 1px greenyellow ;
+}
+
+.secundaryButton{
+  background-color: rgb(92, 201, 201);
+  color: white;
+}
+
+.secundaryButton:hover{
+  box-shadow: 1px 1px blue ;
+}
+
+.buscar{
+  background-color: white;
+  border: 1px solid gray;
+  padding: 4px;
+  border-radius: 8px;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buscar:focus-within{
+  border: 1px solid blue;
+}
+
+.buscar > input {
+  outline: none;
+  border: 0px;
+  
+}
+
+.iconoBusqueda:hover {
+  color: blue;
+}
+
+.tituloPrincipal{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 540;
+  color: rgb(110, 108, 108);
+}
+
+.breedCardContainer{
+  display: flex;
+  
+}
+
+.breedCard{
+ margin: 10px;
+ background-color: rgb(107, 107, 107);
+ box-shadow: 5px 10px 5px rgb(206, 199, 199);
+ border-radius: 10px;
+}
+
+.breedTittle{
+  color: white;
+  margin: 10px;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.contenedorImagen{
+  width: 240px;
+  height: 350px;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.contenedorImagen:hover{
+  cursor: pointer;
+  transform: scale(1.02);
+}
+
+.contenedorImagen > img{
+  object-fit: cover;
+  width: 100%;
+  border-top-right-radius: 10px ;
+  border-top-left-radius: 10px ;
+}
+
+.likes{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+  
+}
+
+.corazonLikes{
+  color: rgb(190, 22, 22);
+}
+
+.likes > li {
+  color: white;
+  font-weight:525;
+  cursor: pointer;
+}
+
+i:hover{
+  cursor: pointer;
+}
