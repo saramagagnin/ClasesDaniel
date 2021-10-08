@@ -73,9 +73,28 @@ ul{
 .buscar > input {
     outline: none;
     border: 0px;
-
+    
 }
 
 .iconoBusqueda:hover {
-color: blue;
+    color: blue;
+}
+
+.breedCardContainer{
+    display: flex;
+}
+
+.breedCard{
+   margin: 10px; 
+}
+
+.contenedorImagen{
+    width: 240px;
+    height: 350px;
+    display: flex;
+}
+
+.contenedorImagen > img{
+    object-fit: cover;
+    width: 100%;
 }
