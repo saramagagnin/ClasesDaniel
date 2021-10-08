@@ -82,19 +82,59 @@ ul{
 
 .breedCardContainer{
     display: flex;
+    
 }
 
 .breedCard{
-   margin: 10px; 
+   margin: 10px;
+   background-color: rgb(107, 107, 107);
+   box-shadow: 5px 10px 5px rgb(206, 199, 199);
+   border-radius: 10px;
+}
+
+.breedTittle{
+    color: white;
+    margin: 10px;
+    font-weight: bold;
+    font-size: x-large;
 }
 
 .contenedorImagen{
     width: 240px;
     height: 350px;
     display: flex;
+    margin-bottom: 10px;
+}
+
+.contenedorImagen:hover{
+    cursor: pointer;
+    transform: scale(1.02);
 }
 
 .contenedorImagen > img{
     object-fit: cover;
     width: 100%;
+    border-top-right-radius: 10px ;
+    border-top-left-radius: 10px ;
+}
+
+.likes{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    
+}
+
+.corazonLikes{
+    color: rgb(190, 22, 22);
+}
+
+.likes > li {
+    color: white;
+    font: weight 510px;
 }
